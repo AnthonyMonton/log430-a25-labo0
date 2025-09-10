@@ -36,6 +36,6 @@ def test_division():
 
 def test_division_by_zero():
     my_calculator = Calculator()
-    resultat = my_calculator.division(5, 0)
+    resultat = my_calculator.division(6, 0)
     assert resultat == "Erreur : division par zéro"
     assert my_calculator.last_result == "Error"
